@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- a document for some of the sample template usages -->
+<document>
+	<tocsv>
+		<elem1>this is elem 1</elem1>
+		<elem2>this has &quot;quotes&quot; in it</elem2>
+	</tocsv>
+	<tocsv>
+		<elem3>this has slashes / and double slashes // in it</elem3>
+		<elem4>this has slashes/&quot;quotes&quot; in it</elem4>
+	</tocsv>
+	<tocsv>
+		<elem5>
+			<subelem51>
+				<value>this is value of 51</value>
+			</subelem51>
+			<subelem52>
+				<value>"this is quoted value of 52"</value>
+			</subelem52>
+		</elem5>
+	</tocsv>
+  <item>
+    <name>item 1</name>
+    <description>This is item 1</description>
+  </item>
+  <item>
+    <name>item 2</name>
+    <description>This is item 2</description>
+  </item>
+  <item>
+    <name>item 3</name>
+    <description>This is item 3</description>
+  </item>
+  <elema>
+  	<something>some text for elema</something>
+  </elema>
+  <elemd>this is elemd</elemd>
+  <elemb>some text for elemb</elemb>
+  <elemc></elemc>
+  <eleme>I am eleme</eleme>
+  <elemf></elemf>
+  <elemg></elemg>
+  <pair1>
+  	<subitem>pair1 part 1</subitem>
+  	<subitem>pair1 part 2</subitem>
+  	<subitem>pair1 part 3</subitem>
+  </pair1>
+  <pair2>
+  	<subitem>pair2 part 1</subitem>
+  	<subitem>pair2 part 2</subitem>
+  	<subitem>pair2 part 3</subitem>
+  </pair2>
+  <trimmer>
+	  <telem>this has trailing space </telem>
+	  <telem> this has leading space</telem>
+	  <telem>  this has leading and trailing space   </telem>
+  </trimmer>
+  <w3cdetect>
+  	<!-- good ones -->
+  	<dtselem>1912</dtselem>
+  	<dtselem>1912-04</dtselem>
+  	<dtselem>1912-04-15Z</dtselem>
+  	<dtselem>1912-04-15T04:15</dtselem>
+  	<dtselem>1912-04-15T04:15:00</dtselem>
+  	<dtselem>1912-04-15T04:15:00.1</dtselem>
+  	<dtselem>1912-04-15T04:15:00.12</dtselem>
+  	<dtselem>1912-04-15T04:15Z</dtselem>
+  	<dtselem>1912-04-15T04:15:00Z</dtselem>
+  	<dtselem>1912-04-15T04:15:00.1Z</dtselem>
+  	<dtselem>1912-04-15T04:15:00.12Z</dtselem>
+  	<dtselem>1912-04-15+02:00</dtselem>
+  	<dtselem>1912-04-15-04:00</dtselem>
+  	<dtselem>1912-04-15T04:15:00-04:00</dtselem>
+  	<!-- bad ones -->
+  	<dtselem>12</dtselem>
+  	<dtselem>1912-</dtselem>
+  	<dtselem>1912-0</dtselem>
+  	<dtselem>1912-044</dtselem>
+  	<dtselem>1912-044-15Z</dtselem>
+  	<dtselem>1912-044-1</dtselem>
+  	<dtselem>1912-04-15Z02:00</dtselem>
+  	<dtselem>1912-04-15T04:15:00.</dtselem>
+  	<dtselem>1912-04-15T4</dtselem>
+  	<dtselem>1912-04-15T04:1</dtselem>
+  	<dtselem>1912-04-15T04:15:0</dtselem>
+  	<dtselem>1912-04-15T04:15:00.1-</dtselem>
+  	<dtselem>1912-04-15X04:15:00.12</dtselem>
+  	<dtselem>1912-04-15T04:15Z </dtselem>
+  	<dtselem>1912-04-15T04:15:00Z-02:00</dtselem>
+  	<dtselem>1912-0415T04:15:00.1Z</dtselem>
+  	<dtselem>1912-4-15T04:15:00.12Z</dtselem>
+  	<dtselem>1912-04-15+2</dtselem>
+  	<dtselem>1912-04-15+02:0</dtselem>
+  	<dtselem>1912-04-15-4:00</dtselem>
+  	<dtselem>1912-04-15T4:15:00-04:00</dtselem>
+	</w3cdetect>
+</document>
